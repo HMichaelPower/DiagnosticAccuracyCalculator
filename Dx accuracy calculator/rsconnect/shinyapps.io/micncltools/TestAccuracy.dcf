@@ -1,0 +1,10 @@
+name: TestAccuracy
+title:
+account: micncltools
+server: shinyapps.io
+appId: 225815
+bundleId: 1030843
+url: https://micncltools.shinyapps.io/TestAccuracy/
+when: 1508251618.33117
+asMultiple: FALSE
+asStatic: FALSE

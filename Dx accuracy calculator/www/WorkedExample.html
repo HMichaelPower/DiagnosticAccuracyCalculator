@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="content-type">
+    <title>Diagnostic accuracy calculator developed by NIHR Newcastle
+      MIC</title>
+  </head>
+  <body>
+    <font color="#996633"><font size="+3"><b>Worked example</b></font></font><br>
+    To fully understand this, it might be helpful to work through an
+    example taken from a typical evaluation of a new diagnostic test.<br>
+    <p>The Roche Elecsys Anti-SARS-CoV-2 test measures antibodies to the
+      coronavirus that causes COVID-19, and Public Health England has
+      published their evaluation of the test[4].<br>
+      The results of Elecsys Anti-SARS-CoV-2 testing were compared in
+      case-control studies with results from PCR testing for the virus's
+      RNA.<br>
+    </p>
+    <p>The report discusses in full detail the implications of
+      evaluating a new test for having had an infection against a test
+      for having an active infection. The analyses took appropriate
+      account of the fact that antibodies can take several weeks to
+      become apparent after an infection, and that viral RNA becomes
+      detectable a few day after infection.<br>
+    </p>
+    <p>For our example, we will select one subgroup: patients who were
+      tested 7 to 13 days after their positive PCR test. The report
+      provides the TP, FP, FN, and TN data, and gives predictive values
+      for a prevalence of 10%. However, we would also like to know what
+      the predictive values are at prevalence that might be found in
+      potential populations for screening, say from 2% to 40%.<br>
+    </p>
+    <p>Our steps in using the calculator are:<br>
+    </p>
+    <ol>
+      <li>Enter titles for the tables and graphs: Roche Elecsys
+        Anti-SARS-CoV-2 test 7-13 days post PCR confirmation.<br>
+        <br>
+      </li>
+      <li>Tick the "case-control/don't know" and "TP, FP, FN, TN" boxes.
+        <br>
+        The calculator will then require you to enter TP, FP, FN, and
+        TN. It will also require the study size and prevalence.<br>
+        <br>
+      </li>
+      <li>Enter 52, 10, 7, 5262 for TP, FP, FN, and TN, and 1000 for
+        study size (to enable calculation of confidence intervals) and
+        10 for the prevalence as a percentage.<br>
+        <br>
+      </li>
+      <li>Select the option to show confidence intervals.<br>
+        <br>
+      </li>
+      <li>Click on Recalculate "(will take a while)"<br>
+        <br>
+      </li>
+      <li>Note the 2x2 contingency matrix. <br>
+        This shows the TP, FP, FN, and TN "reverse engineered" to
+        reflect the cohort study that would have found the same
+        sensitivity and specificity. This is a different set of TP, FP,
+        FN, and TN that were entered.<br>
+        This data allows predictive values to be computed and graphed to
+        show their dependence on prevalence.<br>
+        <br>
+      </li>
+      <li>Note the graph of predictive values against prevalence.<br>
+        The prevalence that was entered is shown as a vertical line with
+        labels displaying the positive and negative predictive values at
+        that prevalence, which is 10% in our example.<br>
+        <br>
+      </li>
+      <li>Note the horizontal bar of action buttons that appears when
+        you move the cursor over the graph.<br>
+        <br>
+      </li>
+      <li>Note that the two predictive values are quite close, and this
+        causes the labels to overlap.<br>
+        <br>
+      </li>
+      <li>Click on the little zoom + button, and then click and hold
+        while you outline a rectangle around the predictive values.<br>
+        Magically the graph will zoom in so you can see the labels
+        separately.<br>
+      </li>
+    </ol>
+    &nbsp; <br>
+    <hr width="100%" size="2">
+    <p><br>
+      <img src="case-control%20example.png" title="Example of using the
+        calculator for a case-control study" alt="Example of using the
+        calculator for a case-control study" width="1080" height="608"><br>
+    </p>
+    <br>
+  </body>
+</html>

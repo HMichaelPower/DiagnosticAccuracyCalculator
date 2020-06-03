@@ -1,0 +1,13 @@
+name: DiagnosticAccuracyCalculator
+title: DiagnosticAccuracyCalculator
+username:
+account: twaza
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2286994
+bundleId: 3218885
+url: https://twaza.shinyapps.io/DiagnosticAccuracyCalculator/
+when: 1591110861.49991
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|docs/.DS_Store|docs/case-control example.pptx|refs

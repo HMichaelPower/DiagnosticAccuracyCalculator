@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="content-type">
+    <title>Diagnostic accuracy calculator developed by NIHR Newcastle
+      MIC</title>
+  </head>
+  <body>
+    <font color="#996633"><font size="+3"><b>Guide to using the
+          diagnostic accuracy calculator</b></font></font><br>
+    <p>You can use the calculator to compute the usual diagnostic
+      accuracy measures, just as many other online calculators will do.<br>
+    </p>
+    <p>The calculator and guide assume that the user is familiar with
+      the concepts of true positive (TP), false positive (FP), false
+      negative (FN), true negative (TN), sensitivity, and specificity.<br>
+    </p>
+    <p>The calculator is intended to make it impossible for a user to
+      obtain positive and negative predictive values for a diagnostic
+      test without seeing that these vary greatly with prevalence. <br>
+    </p>
+    <p>The dependence of predictive values on prevalence is foregrounded
+      because it is a counter-intuitive concept for almost everyone, yet
+      predictive values are what clinicians need when they interpret
+      test results[1, 2].<br>
+    </p>
+    <p>A secondary aim is to make it impossible for a user to not be
+      aware that the design of a diagnostic accuracy evaluation study
+      determines whether or not it can measure prevalence and positive
+      and negative predictive values.<br>
+    </p>
+    <h3><font color="#000099">What is the difference between
+        case-control and cohort study designs?</font></h3>
+    <p>A&nbsp; <b>case-control study </b>tests samples from two groups
+      of people: cases who are known to have the condition and cases who
+      do not.<br>
+      A <b>cohort study</b> tests samples from from one group, the
+      cohort, who are selected to be representative of the populations
+      in which the test will be used.<br>
+    </p>
+    <p>Case-control studies are cheaper and easier to run than cohort
+      studies, because obtaining the samples for testing is quite
+      straightforward compared to cohort studies. <br>
+      Case-control studies tend to be done early on in evidence
+      development for a new test [3].<br>
+    </p>
+    <p>In contrast to cohort studies, it is not possible to directly
+      estimate prevalence or positive and negative predictive values
+      from data provided by a case-control study. <br>
+    </p>
+    <p>Figures 1 to 4 illustrate these concepts in detail.<br>
+    </p>
+    <hr width="100%" size="2"><img src="Case-control%20design.png"
+      title="Design of case-control diagnostic accuracy studies"
+      alt="Design of case-control diagnostic accuracy studies"
+      width="1080" height="608"><br>
+    <h2><font color="#000099">Figure 1. Design of case-control
+        diagnostic accuracy studies</font></h2>
+    <p><br>
+    </p>
+    <hr width="100%" size="2">
+    <p><img src="Cohort%20study%20design.png" title="Design of cohort
+        diagnostic accuracy studies" alt="Design of cohort diagnostic
+        accuracy studies" width="1080" height="608"><br>
+      <br>
+    </p>
+    <h2><font color="#000099">Figure 2. Design of cohort diagnostic
+        accuracy studies</font></h2>
+    <br>
+    <hr width="100%" size="2"><br>
+    <img src="Predictive%20values.png" title="Predictive values"
+      alt="Predictive values" width="1080" height="608"><br>
+    <h2><font color="#000099">Figure 3. Predictive values <br>
+      </font></h2>
+    <br>
+    <hr width="100%" size="2"><img
+      src="Acting%20on%20the%20result%20of%20a%20diagnostic%20test.png"
+      title="Acting on the result of a diagnostic test" alt="Acting on
+      the result of a diagnostic test" width="1080" height="608"><br>
+    <h2><font color="#000099">Figure 4. Acting on the result of a
+        diagnostic test<br>
+      </font></h2>
+    <br>
+    <hr width="100%" size="2"><br>
+    <h2><font color="#000099">Using the calculator for cohort studies<br>
+      </font></h2>
+    <p>Using the calculator to compute diagnostic accuracy measures is
+      straightforward when TP, FP, FN, and TN are available from a
+      cohort study.</p>
+    <p>If the data available from a cohort study includes sensitivity
+      and specificity, and you wish to compute TP, FP, FN, and TN (and
+      other diagnostic accuracy measures) you will also have to enter
+      the prevalence of the condition in the target population, and the
+      number of samples in the study. This is a constraint of "simple
+      algebra": TP, FP, FN, and TN are 4 independent variables, so their
+      computation requires 4 different independent data items. With this
+      knowledge, use of the calculator should be straightforward.<br>
+    </p>
+    <h2><font color="#000099">Using the calculator for case-control
+        studies</font></h2>
+    <p>If the data available from a case-control study includes
+      sensitivity and specificity, the calculator can be used as
+      described above for a cohort study, with one caveat about
+      interpretation of the 2x2 contingency matrix: the prevalence
+      specified for the condition will be included in the computation of
+      TP, FP, FN, and TN. <br>
+      This means that these numbers will NOT be the same as the numbers
+      in the study which provided the sensitivity and specificity data.
+      <br>
+      In effect, the calculator reverse engineers the 2x2 table that
+      would have been produced by the cohort study that would have found
+      the same sensitivity and specificity. This allows it to calculate
+      the positive and negative predictive values that patients and
+      clinicians find easiest to understand.<br>
+    </p>
+    <p>If the data available from a case-control study includes TP, FP,
+      FN, and TN, you will also need to enter the prevalence and study
+      size to enable the calculation of predictive values. If the data
+      were from a cohort study design, the study size and prevalence
+      could be calculated from TP, FP, FN, and TN. <br>
+    </p>
+    <p>Of course, you can (mis)use the calculator by pretending that a
+      case-control study was actually a cohort study, but then you would
+      be given incorrect positive and negative predictive values. And,
+      if you were to look at the calculated prevalence you would see
+      that it is highly unlikely to reflect any potential clinical
+      population.<br>
+    </p>
+    <br>
+    <hr width="100%" size="2">
+    <h2><font color="#000099">References and resources</font></h2>
+    <ol>
+      <li>Simple tools for understanding risks: from innumeracy to
+        insight.<br>
+        Gigerenzer G, Edwards A.&nbsp; <br>
+        BMJ. 2003;327(7417):741&#8208;744. doi:10.1136/bmj.327.7417.741<br>
+        <a
+href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC200816/pdf/bmj32700741.pdf">PDF</a><br>
+        <br>
+      </li>
+      <li>Using natural frequencies to improve diagnostic inferences. <br>
+        Hoffrage U, Gigerenzer G. <br>
+        <i>Acad Med</i>. 1998;73(5):538&#8208;540.
+        doi:10.1097/00001888-199805000-00024<br>
+        <a
+href="https://journals.lww.com/academicmedicine/Abstract/1998/05000/Using_natural_frequencies_to_improve_diagnostic.24.aspx">PDF</a><br>
+        <br>
+      </li>
+      <li>How to Ease the Pain of Taking a Diagnostic Point of Care Test
+        to the Market: A Framework for Evidence Development. <br>
+        Graziadio, S., Winter, A., Lendrem, B. C., Suklan, J., Jones, W.
+        S., Urwin, S. G., O'Leary, R. A., Dickinson, R., Halstead, A.,
+        Kurowska, K., Green, K., Sims, A., Simpson, A. J., Power, H. M.,
+        &amp; Allen, A. J. (2020). <br>
+        <i>Micromachines</i>,&nbsp;11(3), 291.
+        https://doi.org/10.3390/mi11030291. <a
+          href="https://www.mdpi.com/resolver?pii=mi11030291"><br>
+          PDF<br>
+          <br>
+        </a></li>
+      <li>Evaluation of Roche Elecsys Anti-SARS-CoV-2 serology assay for
+        the detection of anti-SARS-CoV-2 antibodies<br>
+        Public Health England, 23 May, 2020.<br>
+        <a
+href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/887222/PHE_Evaluation_of_Roche_Elecsys_anti_SARS_CoV_2.pdf">PD</a><a
+href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/887222/PHE_Evaluation_of_Roche_Elecsys_anti_SARS_CoV_2.pdf">F</a><br>
+        <br>
+      </li>
+      <li>Quantifying Diagnostic Test Accuracy: An Interactive Primer
+        (v1.0)<br>
+        &nbsp;Professor Alex Sutton, University of Leicester.<br>
+        <a href="https://crsu.shinyapps.io/diagprimer/">App</a> <br>
+      </li>
+    </ol>
+  </body>
+</html>

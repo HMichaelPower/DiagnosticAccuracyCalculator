@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="content-type">
+    <title>Diagnostic accuracy calculator developed by NIHR Newcastle
+      MIC</title>
+  </head>
+  <body>
+    <div class="tabbable tabs-above" style="color: rgb(51, 51, 51);
+      font-family: 'Helvetica Neue',Hel vetica,Arial,sans-serif;
+      font-size: 13.6364px; font-style: normal; font-variant: normal;
+      font-weight: normal; letter-spacing: normal; line-height:
+      18.1818px; text-align: start; text-indent: 0px; text-transform:
+      none; white-space: normal; word-spacing: 0px; background-color:
+      rgb(255, 255, 255);">
+      <div class="tab-content">
+        <div class="tab-pane active" data-value="Using the App"
+          id="tab-7136-1" style="display: block;">This is the first of a
+          collection of interactive <a href="http://shiny.rstudio.com/"
+            target="_blank">Shiny</a> apps that allow you to calculate
+          diagnostic accuracy statistics and explore the intricacies of
+          evaluating and using diagnostic tests:<br>
+          <ul>
+            <li><b>&nbsp;Diagnostic accuracy calculator</b>.&nbsp; App
+              to calculate the main diagnostic accuracy statistics.<br>
+            </li>
+            <ul>
+            </ul>
+            <li><a
+                href="https://micncltools.shinyapps.io/micsamplesizeshinyapp2/"><b>Sample
+
+
+
+
+
+
+
+
+
+
+
+
+                  size planner</b></a>. Interactive app for estimating
+              sample sizes for diagnostic accuracy studies.<br>
+            </li>
+            <ul>
+            </ul>
+            <li><b>Interpreting diagnostic accuracy</b><b> measures</b>.
+              Interactive app to explore the main measures of diagnostic
+              accuracy: sensitivity and specificity (technically useful)
+              and positive and negative predictive values (clinically
+              useful )&nbsp; <font color="#cc9933"><b>(under
+                  construction)</b><b>.</b></font></li>
+            <li><b><b>Interpreting</b> ROC curves</b>. Interactive app
+              to explore the trade offs between high sensitivity and
+              high specificity when selecting the classification
+              threshold for a test with a continuous result. <font
+                color="#cc9933"><b>(under construction)</b><b>.</b></font></li>
+            <li><b><b><b>Interpreting</b></b> the clinical </b><b>utility
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                of diagnostic tests</b>. Interactive app to explore how
+              to take account of the uncertainties in test results and
+              the values placed on the range of possible outcomes
+              (benefits, harms, costs) when making clinical decisions. <font
+                color="#cc9933"><b>(under construction)</b><b>.</b></font><br>
+            </li>
+            <li><b><b>Interpreting evaluations with an i</b>mperfect
+                reference test</b>. cto explore the uncertainties that
+              arise in evaluating a diagnostic test when there is no
+              gold standard to compare its performance. <font
+                color="#cc9933"><b>(under construction)</b><b>.</b></font></li>
+            <li><b><b>Interpreting </b></b><b>epidemic transmissibility
+                measures</b>. Interactive app to explore the effects of
+              the infection's transmissibility and the test's accuracy
+              on the course of an epidemic. <font color="#cc9933"><b>(under
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  construction)</b><b>.</b></font></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p></p>
+    You can use this app to:<br>
+    <ul>
+      <li>Calculate diagnostic accuracy measures</li>
+      <li>See how predictive values vary with prevalence</li>
+      <li>See the uncertainties in positive and negative predictive
+        values<br>
+      </li>
+    </ul>
+    <h4><font color="#000099">Calculate diagnostic accuracy measures</font></h4>
+    <p><font color="#000000">The obvious purpose of the calculator is to
+        calculate the main measures of accuracy for a diagnostic test. <br>
+        You can:<br>
+      </font></p>
+    <ul>
+      <li><font color="#000000"><i>Either</i> enter the Tp, Tp, Tn, and
+          Fn results, and calculate the diagnostic accuracy measures,</font></li>
+      <li><font color="#000000"><i>Or</i> enter enter the diagnostic
+          accuracy measures, and calculate the </font><font
+          color="#000000">the Tp, Tp, Tn, and Fn counts. </font></li>
+    </ul>
+    <p>For reasons that are explained below, you will also have to enter
+      the type of study which provides the data you <br>
+    </p>
+    <ul>
+    </ul>
+    <h4><font color="#000099">See how predictive values vary with
+        prevalence</font></h4>
+    <font color="#000000">The main reason for developing this app was to
+      make it obvious how positive and negative predictive values vary
+      with prevalence.<br>
+      This is crucially important to understanding:<br>
+    </font>
+    <ul>
+      <li><font color="#000000">How the <b>design</b> of a diagnostic
+          accuracy study (cohort or case-control) determines whether or
+          not it can estimate the predictive values of a test result</font></li>
+      <li><font color="#000000">How the <b>prevalence</b> of a
+          condition determines the predictive values of a test, which is
+          particularly important when a test is to be used to screen for
+          a condition when the prevalence is low, or to exclude a
+          condition when the prevalence is high</font></li>
+    </ul>
+    <p></p>
+    <ul>
+    </ul>
+    <h5><font color="#000099">Tip: Limitations of case-control studies</font></h5>
+    <font color="#000000">A <b>cohort design </b>allows the
+      sensitivity and specificity, positive and negative predictive
+      values, prevalence, and study size to be calculated from </font><font
+      color="#000000"><font color="#000000">(TP, FP, FN, TN).</font></font>
+    <p><font color="#000000"><font color="#000000"> In contrast, a <b>case-control
+
+
+
+
+
+
+            design</b> allows only </font></font><font color="#000000">sensitivity
+
+
+
+
+
+
+        and specificity to be calculated.<br>
+      </font></p>
+    <p>Because of these constraints, the calculator requires you to
+      first identify the study design.<br>
+    </p>
+    <p>The calculator then needs to be told the type of data that will
+      be entered:<br>
+    </p>
+    <ul>
+      <li><font color="#000000"><font color="#000000"><font
+              color="#000000"><font color="#000000"><font
+                  color="#000000"><i>Either </i></font>TP, FP, TN, FN</font></font></font></font></li>
+      <li><font color="#000000"><font color="#000000"><font
+              color="#000000"><font color="#000000"><font
+                  color="#000000"><i>Or </i></font>sensitivity and
+                specificity<br>
+              </font></font></font></font></li>
+    </ul>
+    <p>If the study design is case-control (or unknown), the calculator
+      requires estimates of the prevalence and the study size. These are
+      also required if you are using sensitivity and specificity data to
+      calculate predictive values.</p>
+    <p>The calculator does not expect you to remember what information
+      you need to provide: it knows what it needs, and asks for it.<br>
+    </p>
+    <h5><font color="#000099">Tip: use the zoom button to see detail at
+        the ends of the graph </font></h5>
+    The zoom button on the graph of predictive value against prevalence
+    is useful for looking the PPV curve at low prevalences (close to
+    zero) and the NPV curve at high prevalences (close to one).<br>
+    The zoom button is normally hidden. But, if you move your mouse's
+    cursor over the graph, a line of little action buttons will appear
+    above the graph. Experiment with the buttons to see how they work.
+    <p> </p>
+    <h4><font color="#000099"> See the uncertainties in positive and
+        negative predictive values</font></h4>
+    The third purpose of the calculator is to visuaslize the statistical
+    uncertainty in predictive values, and how increasing the sample size
+    of the study increases the precision of the predictive values.
+    Understanding this source of uncertainty can inform clinical
+    decision making and the planning of diagnostic evaluation studies.
+    However, if you are planning a diagnostic accuracy study, you should
+    check out our app for <a href="Use this app to calculate the main
+      measures of accuracy of a diagnostic test The clinically useful:
+      Positive and negative predictive values, and show how they vary
+      with the prevalence of the condition being tested for The
+      technically useful: True and false positive results, and true and
+      false negative (TP, FP, TN, FN) test results Sensitivity and
+      specificity The obvious purpose of the calculator is to calculate
+      the main measures of accuracy for a diagnostic test. You can:
+      Either enter the Tp, Tp, Tn, and Fn results, and calculate the
+      diagnostic accuracy measures, Or enter enter the diagnostic
+      accuracy measures, and calculate the the Tp, Tp, Tn, and Fn
+      counts. However, the main reason for developing this app was to
+      make it obvious how positive and negative predictive values vary
+      with prevalence. This is crucially important to understanding: How
+      the design of a diagnostic accuracy study (cohort or case-control)
+      determines whether or not it can estimate the predictive values of
+      a test result How the prevalence of a condition determines the
+      predictive values of a test, which is particularly important when
+      a test is to be used to screen for a condition when the prevalence
+      is low, or to exclude a condition when the prevalence is high A
+      cohort design allows the sensitivity and specificity, positive and
+      negative predictive values, prevalence, and study size to be
+      calculated from (TP, FP, FN, TN). In contrast, a case-control
+      design allows only sensitivity and specificity to be calculated.
+      Because of these constraints, the calculator requires you to first
+      identify the study design. The calculator then needs to be told
+      the type of data that will be entered: TP, FP, TN, FN sensitivity
+      and specificity If the study design is case-control (or unknown),
+      the calculator requires estimates of the prevalence and the study
+      size. These are also required if you are using sensitivity and
+      specificity data to calculate predictive values. The calculator
+      does not expect you to remember what information you need to
+      provide: it knows what it needs, and asks for it. The third
+      purpose of the calculator is to visualize the statistical
+      uncertainty in predictive values, and how increasing the sample
+      size of the study increases the precision of the predictive
+      values. Understanding this source of uncertainty can inform
+      clinical decision making and the planning of diagnostic evaluation
+      studies. However, if you are planning a diagnostic accuracy study,
+      you should check out our app for estimating study size.">estimating
+
+
+
+
+
+
+      study sample size</a>.
+  </body>
+</html>

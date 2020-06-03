@@ -1,0 +1,11 @@
+name: TestAccuracy
+title:
+account: decncltools
+server: shinyapps.io
+appId: 204705
+bundleId: 992383
+url: https://decncltools.shinyapps.io/TestAccuracy/
+when: 1506073204.67828
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: DESCRIPTION|Archive/App.R|Archive/DistributionandROCanalysis.R|Archive/temp copy.R|Archive/temp.R|Archive/VisualizeSensitivityAndSpecificityShinyApp.R|Archive/VisualizeSensitivityAndSpecificityShinyAppv - bak.R|Archive/VisualizeSensitivityAndSpecificityShinyAppv3.R|Archive/VisualizeSensitivityAndSpecificityShinyAppv4.R|Archive/VisualizeSensitivityAndSpecificityShinyAppv5.R|Archive/VisualizeSensitivityAndSpecificityShinyAppv6 - old.R|Archive/VisualizeSensitivityAndSpecificityShinyAppv6-2.R|Archive/VisualizeSensitivityAndSpecificityShinyAppv6.R|Archive/VisualizeSensitivityAndSpecificityShinyAppv7.1.R|Archive/VisualizeSensitivityAndSpecificityShinyAppv7.2.R|Archive/VisualizeSensitivityAndSpecificityShinyAppv7.R|Archive/August 2016/VisualizeSensitivityAndSpecificityShinyAppv5.R
